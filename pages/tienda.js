@@ -1,6 +1,6 @@
 import MasterPage from '../components/MasterPage'
 
-const Nosotros = () => {
+const Tienda = () => {
   return (
     <MasterPage pagina='nosotros'>
       
@@ -8,4 +8,4 @@ const Nosotros = () => {
   )
 }
 
-export default Nosotros
+export default Tienda

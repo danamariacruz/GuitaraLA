@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const MasterPage = ({children,pagina}) => {
   return (
@@ -6,7 +8,9 @@ const MasterPage = ({children,pagina}) => {
       <Head>
           <title>QuitaraLA - {pagina}</title>
       </Head>
+      <Header />
       {children}
+      <Footer />
     </div>
   )
 }
