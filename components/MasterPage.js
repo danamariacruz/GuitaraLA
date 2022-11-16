@@ -6,7 +6,7 @@ const MasterPage = ({children,pagina}) => {
   return (
     <div>
       <Head>
-          <title>QuitaraLA - {pagina}</title>
+          <title>GuitaraLA - {pagina}</title>
       </Head>
       <Header />
       {children}

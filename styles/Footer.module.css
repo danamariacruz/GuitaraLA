@@ -8,11 +8,13 @@
 		display: flex;
 		justify-content: space-between;
 	}
+    .navegacion{
+        gap: 2rem;
+    }
 }
-/* justify-content= para alinear objetos horizontales y itemes-aling= para alinear objetos verticales */
+/* justify-content= para alinear objetos horizontales y align-items= para alinear objetos verticales */
 .navegacion {
-	display: flex;
-    gap: 2rem;
+	display: flex;    
 	Justify-content: center;    
 }
 
@@ -21,10 +23,11 @@
     text-decoration: none;   
     font-weight: 700;
     font-size: 1.8rem;
+    padding: .5rem;
 }
 
 .navegacion a:hover {
-    background-color: var(--primary)
+    color: var(--primary)
 }
 .copyrigth {
     font-size: 1.8rem;
